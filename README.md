@@ -18,7 +18,7 @@ This project is part of my journey mastering Frontend Development — focusing o
 
 ## 📂 Live Demo
 
-👉 [Click here to view the live project!](YOUR_DEPLOYED_LINK)
+👉 https://hajeeaboothahir.github.io/Greenden-tailwind-css/
 
 ## 🛠️ Tech Stack
 
