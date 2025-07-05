@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- responsive navbar -->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0">
+        <h1 class="text-2xl color-grey-600">GREENDEN</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="h-10 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact </a>
+            </li>
+        </ul>
+    </nav>
+    <!--Product and search box-->
+    <div class="text-center">
+        <h1 class="text-3xl font-bold mt-5">Our Products</h1>
+
+        <input type="text" placeholder="Search for an item" class="border border-black p-2 m-3" style="width: 80%">
+    </div>
+    <!--Product section-->
+    <section>
+
+
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-4">
+            <div>
+                <img src="./images/rose1.jpg" alt="Rose Plant" class="w-45 h-45 mx-auto">
+                <p class="text-center">Rose Plant</p>
+                <p class="text-center">$20</p>
+            </div>
+            <div>
+                <img src="./images/jade.jpg" alt="Jade" class="w-45 h-45 mx-auto">
+                <p class="text-center">Jade</p>
+                <p class="text-center">$30</p>
+            </div>
+            <div>
+                <img src="./images/cactus (1).jpg" alt="Cactus" class="w-45 h-45 mx-auto">
+                <p class="text-center">Cactus</p>
+                <p class="text-center">$25</p>
+            </div>
+            <div>
+                <img src="./images/spider plant.jpg" alt="Spider Plant" class="w-45 h-45 mx-auto ">
+                <p class="text-center">Spider Plant</p>
+                <p class="text-center">$50</p>
+            </div>
+            <div>
+                <img src="./images/amaryllis.jpg" alt="amaryllis" class="w-45 h-45 mx-auto ">
+                <p class="text-center">amaryllis</p>
+                <p class="text-center">$50</p>
+            </div>
+            <div>
+                <img src="./images/ficus.jpg" alt="ficus" class="w-45 h-45 mx-auto ">
+                <p class="text-center">ficus</p>
+                <p class="text-center">$50</p>
+            </div>
+            <div>
+                <img src="./images/cyclamen.jpg" alt="cyclamen" class="w-45 h-45 mx-auto ">
+                <p class="text-center">cyclamen</p>
+                <p class="text-center">$50</p>
+            </div>
+            <div>
+                <img src="./images/garden rose.jpg" alt="gardenrose" class="w-45 h-45 mx-auto ">
+                <p class="text-center">gardenrose</p>
+                <p class="text-center">$50</p>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">GREENDEN</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, necessitatibus.</p>
+        <p>@2025 Greenday.com</p>
+    </section>
+
+
+</body>
+
+</html>
